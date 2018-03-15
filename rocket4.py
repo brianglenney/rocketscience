@@ -2,7 +2,7 @@ from ggrocket import Rocket, Planet
 from math import radians, sqrt, log
 from ggmath import InputButton, Timer, Label, Slider
 
-earth = Planet(planetmass=0)  # no gravity to simplify things
+earth = Planet(planetmass=0, viewscale=0.00005)  # no gravity to simplify things
 
 Stage1Started = False
 Stage2Started = False
